@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Handjet:wght@300&family=Lato&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body{
+   background-image: url("./cake.jpg");
+    font-family: "poppins" , sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    font-weight: 1300;
+    font-size: 6rem;
+    margin-top: 5rem;
+    color: rgb(81, 99, 198);
+    font-family: 'Handjet', cursive;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+
+.countdown-el {
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.4rem;
+}
